@@ -47,3 +47,4 @@
 
 // const numbers = [1, 2, 3, 4];
 // const result3 = sum(...numbers);
+
