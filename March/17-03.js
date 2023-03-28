@@ -115,14 +115,14 @@
 // Prototype
 
 // // Constructor Function
-// function Person(name, age) {
-//   this.name = name;
-//   this.age = age;
-// }
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
 
-// Person.prototype.work = function () {
-//   console.log(`${this.name} is working`);
-// };
+Person.prototype.work = function () {
+  console.log(`${this.name} is working`);
+};
 
 // Array.prototype.map = function() {
 
@@ -132,25 +132,25 @@
 
 // }
 
-// Person.prototype.sleep = function () {
-//   console.log(`${this.name} is sleeping`);
-// };
+Person.prototype.sleep = function () {
+  console.log(`${this.name} is sleeping`);
+};
 
 // Person.prototype.eat = function () {
 //   console.log(`${this.name} is eating`);
 // };
 
-// const personOne = new Person("Levi", 28);
+const personOne = new Person("Levi", 28);
 
-const array = [1, 2, 3];
+// const array = [1, 2, 3];
 
-Array.prototype.printAllElements = function () {
-  for (const element of this) {
-    console.log(element);
-  }
-};
+// Array.prototype.printAllElements = function () {
+//   for (const element of this) {
+//     console.log(element);
+//   }
+// };
 
-array.printAllElements();
+// array.printAllElements();
 
-const anotherArray = ["A", "B", "C"];
-anotherArray.printAllElements();
+// const anotherArray = ["A", "B", "C"];
+// anotherArray.printAllElements();
